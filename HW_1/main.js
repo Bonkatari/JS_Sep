@@ -61,7 +61,8 @@ console.log(typeof c);
 let name = prompt("Введіть ваше ім'я:", "Катерина");
 let nameMiddle = prompt("Введіть ваше По-Батькові:", "Олександрівна");
 let age = prompt("Введіть ваш вік:", "21");
+let ageAsNumber = parseInt(age, 21)
 console.log("Ім'я: " + name);
 console.log("По-батькові: " + nameMiddle);
-console.log("Вік: " + age);
+console.log("Вік: " + ageAsNumber);
 // ----------------------------
