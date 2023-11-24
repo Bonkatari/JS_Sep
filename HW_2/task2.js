@@ -39,7 +39,10 @@ let firstBook = {
     pageCount: 960,
     genre: 'Historical Fiction',
     authors: [
-        'name', 'age'
+        {
+            name: 'Vlad',
+            age: 30
+        }
     ]
 }
 console.log(firstBook);
@@ -48,7 +51,10 @@ let secondBook = {
     pageCount: 300,
     genre: 'Fiction',
     authors: [
-        'name', 'age'
+        {
+            name: 'Oleg',
+            age: 25
+        }
     ]
 }
 console.log(secondBook);
@@ -57,58 +63,61 @@ let thirdBook = {
     pageCount: 660,
     genre: 'Adventure',
     authors: [
-        'name', 'age'
+        {
+            name: 'Maria',
+            age: 18
+        }
     ]
 }
 console.log(thirdBook);
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 let users = [
-    user1 = {
+    {
         name: 'Vasya',
         username: 'vas',
         password: 12345
     },
-    user2 = {
+    {
         name: 'Petya',
         username: 'pet',
         password: 54321
     },
-    user3 = {
+    {
         name: 'Kate',
         username: 'kat',
         password: 12345
     },
-    user4 = {
+    {
         name: 'Kolya',
         username: 'kol',
         password: 23657
     },
-    user5 = {
+    {
         name: 'Lola',
         username: 'lol',
         password: 95682
     },
-    user6 = {
+    {
         name: 'Olya',
         username: 'ol',
         password: 64932
     },
-    user7 = {
+    {
         name: 'Anna',
         username: 'ann',
         password: 73296
     },
-    user8 = {
+    {
         name: 'Yura',
         username: 'yur',
         password: 93784
     },
-    user9 = {
+    {
         name: 'Valery',
         username: 'val',
         password: 75932
     },
-    user10 = {
+    {
         name: 'Anton',
         username: 'antony',
         password: 58923
