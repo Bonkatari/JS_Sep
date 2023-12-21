@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            display: block;
+            margin-top: 20px;
+        }
+        button{
+            margin-top: 10px;
+        }
+        #divWithNumber{
+            width: 100px;
+            height: 100px;
+            background: aquamarine;
+        }
+        #divWithNumber{
+            margin-top: 20px;
+        }
+        #text{
+            margin-top: 20px;
+        }
+        #priceBlock{
+            width: 100px;
+            height: 100px;
+            background: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<form id="f1">
+    <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я"></input>
+    <input type="text" id = "surname" name="surname" placeholder="Введіть ваше прізвище"></input>
+    <input type="number" id="age" name="age" placeholder="Введіть ваш вік"></input>
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+<div class="result"></div>
+<!--------------------------------------------------->
+<div id="divWithNumber">0</div>
+<!--------------------------------------------------->
+<div id="array100Objects"></div>
+<button id="prevBtn">Prev</button>
+<button id="nextBtn">Next</button>
+<!--------------------------------------------------->
+<div id="text">Текстовий елемент</div>
+<button id="hiddenBtn">Приховати елемент</button>
+<!--------------------------------------------------->
+<input type="number" id="ageInput" placeholder="Age">
+<button id="checkAge">Перевірити вік</button>
+<!--------------------------------------------------->
+<input type="number" id="rowCountInput" placeholder="Введіть кількість рядків">
+<input type="number" id="cellCountInput" placeholder="Введіть кількість ячеєк">
+<input type="text" id="cellContentInput" placeholder="Введіть вміст ячеєк">
+<button id="createTableBtn">Створити таблицю</button>
+
+<div id="tableWrapper"></div>
+<!--------------------------------------------------->
+<div id="priceBlock">100 UAH</div>
+
+<script src="task10.js"></script>
+</body>
+</html>
